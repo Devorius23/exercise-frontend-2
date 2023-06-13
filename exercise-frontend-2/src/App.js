@@ -60,7 +60,7 @@ const App = () => {
               <div key={exercise._id}>
                 <Exercise exercise={exercise} />
                 <Edit exercise={exercise} handleEdit={handleEdit} />
-                <div className="text-center">
+                <div className="text-center delete">
                 <button onClick={() => { handleDelete(exercise) }} >Delete</button>
                 </div>
               </div>

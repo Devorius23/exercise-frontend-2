@@ -1,3 +1,15 @@
-.pic {
-  margin: auto;
+.images {
+  min-width: 400px;
+  max-height: 400px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 7px;
+  margin:auto
+  
+
 }
+
+.delete{
+  cursor: pointer;
+}
+
